@@ -1,0 +1,42 @@
+
+
+html {background-color: white 
+}
+
+.intro {
+    font-style: italic;
+    text-align: center
+}
+
+.pickup{
+    max-width: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.about {
+    /* text-align: left */
+    /* border-style: solid;
+    border-width: medium */
+    }
+
+.hedr {
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline
+}
+.contact {
+    
+}
+.page-title {
+    text-align: center;
+}
+
+.contlabel {
+    margin-left: 25px
+}
+
+.button {
+    margin-left: 50px
+}

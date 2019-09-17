@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Our First Web Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body style="width: 900px">
+    <header>
+        <h1 class="page-title">Low, Bradley</h1>
+    </header>
+    <p class="intro">Welcome to IS 445 Homework 2</p>
+    <div><img class="pickup" src="images/pickup.jpg" alt="93 Ford F150 XLT Ext. Cab"></div>
+
+    </nav>
+    <form class="about" action="About">
+        <div style="float: left; border: 3px; border-style: solid; width: 50%">
+            <div>
+                <p style="text-align: center">About Me</p>
+            </div>
+            <div>
+                <p class="hedr">Education</p>
+                <p>2019, Bachelor of Mgmt Info Systems, CSULB</p>
+            </div>
+
+            <div>
+                <p class="hedr">Skills</p>
+                <ul style="list-style: none;">
+                    <li>1. Beginner's level knowledge of HTML, CSS,
+                        JavaScript and Python</li>
+                    <li>2. Hard worker with a customer-service oriented personality</li>
+                </ul>
+            </div>
+
+            <p class="hedr">Expectations for this Course<p>
+                    <p>I would like to attain at the very least, an
+                        intermediate level of knowledge with HTML,
+                        CSS and JavaScript.
+                    </p>
+        </div>
+    </form>
+    <form class="contact" action="Contact">
+        <div style="display: inline-block; 
+        border: 3px; border-style: solid; width: 400px;
+        height: 308px">
+            <div>
+                <p style="text-align: center">Contact Me</p>
+            </div>
+            <div style="border: 1px; border-style: solid;
+            border-radius: 20px; margin-left: 40px; margin-right: 40px">
+                <div style="width: 200px">
+                    <label class="contlabel" for="name">Name:</label>
+                    <input type="text" id="name">
+                </div>
+                <div style="width: 200px">
+                    <label class="contlabel" for="email">Email:</label>
+                    <input type="text" id="email">
+                </div>
+                <div style="width: 200px">
+                    <label class="contlabel" for="message">Message:</label>
+                    <textarea id="message" name="user_message" 
+                    rows="7" cols="30"></textarea>
+                </div>
+                <button class="button" type="button">Send your message</button>
+            </div>
+
+        </div>
+    </form>
+
+</body>
+
+</html>
