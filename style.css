@@ -31,6 +31,8 @@ html {background-color: white
 }
 .page-title {
     text-align: center;
+    border-bottom-style: solid;
+    border-color: green
 }
 
 .contlabel {
